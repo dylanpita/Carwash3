@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Carwash3</string>
+    <string name="title">Car Wash Packages</string>
+    <string name="discount">Buy 12+ washes for a 25% discount</string>
+    <string name="outside">Exterior Only ($5)</string>
+    <string name="inside_out">Exterior with Interior Vacuum ($10)</string>
+    <string name="button_text">Calculate Package</string>
+    <string name="input_hint">Enter amount of washes</string>
+
+    <string name="ui_menu_help">Help</string>
+    <string name="ui_menu_about">About</string>
+    <string name="ui_menu_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

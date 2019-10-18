@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_gravity="end"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+tools:context="fragment_display_total"
+    android:id="@+id/hello">
+
+<androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/title"
+    android:textColor="@color/textColor"
+    android:paddingTop="30dp"
+    android:textSize="30dp"
+    android:layout_centerHorizontal="true"/>
+
+<androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/total_price"
+    android:layout_width="140dp"
+    android:layout_height="71dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="92dp"
+    android:layout_marginEnd="8dp"
+    android:textSize="30dp"
+    android:textColor="@color/textColor"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    app:layout_constraintTop_toBottomOf="@+id/title" />
+
+</RelativeLayout>
